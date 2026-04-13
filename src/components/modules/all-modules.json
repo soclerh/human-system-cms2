@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_modules_all_modules",
+  "info": {
+    "displayName": "All Modules"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

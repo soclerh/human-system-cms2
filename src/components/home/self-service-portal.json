@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_home_self_service_portals",
+  "info": {
+    "displayName": "Self Service Portal"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "text"
+    },
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "pontOne_title": {
+      "type": "text"
+    },
+    "pointOne_description": {
+      "type": "text"
+    },
+    "pointTwo_title": {
+      "type": "string"
+    },
+    "pointTwp_description": {
+      "type": "text"
+    },
+    "cta": {
+      "type": "component",
+      "component": "shared.link",
+      "repeatable": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "card": {
+      "type": "component",
+      "component": "home.card",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

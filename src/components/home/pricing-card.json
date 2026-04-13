@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_home_pricing_cards",
+  "info": {
+    "displayName": "Pricing Card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "monthly": {
+      "type": "string"
+    },
+    "yearly": {
+      "type": "string"
+    },
+    "highlight": {
+      "type": "boolean"
+    },
+    "highlighted": {
+      "type": "boolean"
+    },
+    "badge": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "component": "shared.text-block",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

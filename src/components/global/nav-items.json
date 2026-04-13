@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_global_nav_items",
+  "info": {
+    "displayName": "Nav Items"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "sub_links": {
+      "type": "component",
+      "component": "shared.link",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

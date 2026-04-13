@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_points",
+  "info": {
+    "displayName": "Points"
+  },
+  "options": {},
+  "attributes": {
+    "count": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "home.card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_our_modules",
+  "info": {
+    "displayName": "Our Modules"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

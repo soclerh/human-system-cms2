@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_testimonials",
+  "info": {
+    "displayName": "Testimonial"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "home.testimonial-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

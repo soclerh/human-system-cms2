@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricings",
+  "info": {
+    "singularName": "pricing",
+    "pluralName": "pricings",
+    "displayName": "Pricing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tag": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "discount": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "component": "home.pricing-card",
+      "repeatable": true
+    }
+  }
+}

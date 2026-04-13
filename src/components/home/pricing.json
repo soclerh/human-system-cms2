@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_home_pricings",
+  "info": {
+    "displayName": "Pricing"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "discount": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "component": "home.pricing-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

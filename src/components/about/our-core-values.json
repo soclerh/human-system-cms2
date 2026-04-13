@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_our_core_values",
+  "info": {
+    "displayName": "Our Core Values"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "shared.card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
