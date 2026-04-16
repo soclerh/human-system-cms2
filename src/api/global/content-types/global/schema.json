@@ -23,7 +23,8 @@
         }
       },
       "components": [
-        "global.header"
+        "global.header",
+        "global.footer"
       ]
     }
   }

@@ -556,7 +556,7 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
     };
   };
   attributes: {
-    blocks: Schema.Attribute.DynamicZone<['global.header']> &
+    blocks: Schema.Attribute.DynamicZone<['global.header', 'global.footer']> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
