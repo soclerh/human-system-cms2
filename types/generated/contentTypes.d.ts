@@ -828,6 +828,7 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
         'modules.all-modules',
         'home.pricing',
         'modules.faq',
+        'pricing.compare-plans',
       ]
     > &
       Schema.Attribute.SetPluginOptions<{

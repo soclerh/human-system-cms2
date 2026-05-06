@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_pricing_features",
+  "info": {
+    "displayName": "Features"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "starter": {
+      "type": "boolean"
+    },
+    "pro": {
+      "type": "boolean"
+    },
+    "enterprise": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

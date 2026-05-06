@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_pricing_compare_plans",
+  "info": {
+    "displayName": "Compare Plans"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "th1": {
+      "type": "string"
+    },
+    "th2": {
+      "type": "string"
+    },
+    "th3": {
+      "type": "string"
+    },
+    "th4": {
+      "type": "string"
+    },
+    "comparisonData": {
+      "type": "component",
+      "component": "pricing.comparison-data",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

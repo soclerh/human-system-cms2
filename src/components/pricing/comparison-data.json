@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_pricing_comparison_data",
+  "info": {
+    "displayName": "Comparison Data"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Core HR",
+        "Leave & Documents",
+        "Performance & Payroll",
+        "Administration",
+        "Support"
+      ]
+    },
+    "features": {
+      "type": "component",
+      "component": "pricing.features",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

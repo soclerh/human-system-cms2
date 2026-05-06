@@ -43,7 +43,8 @@
         "shared.common-cta",
         "modules.all-modules",
         "home.pricing",
-        "modules.faq"
+        "modules.faq",
+        "pricing.compare-plans"
       ]
     }
   }

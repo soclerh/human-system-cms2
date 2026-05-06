@@ -326,6 +326,54 @@ export interface ModulesFaq extends Struct.ComponentSchema {
   };
 }
 
+export interface PricingComparePlans extends Struct.ComponentSchema {
+  collectionName: 'components_pricing_compare_plans';
+  info: {
+    displayName: 'Compare Plans';
+  };
+  attributes: {
+    comparisonData: Schema.Attribute.Component<'pricing.comparison-data', true>;
+    description: Schema.Attribute.Text;
+    th1: Schema.Attribute.String;
+    th2: Schema.Attribute.String;
+    th3: Schema.Attribute.String;
+    th4: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PricingComparisonData extends Struct.ComponentSchema {
+  collectionName: 'components_pricing_comparison_data';
+  info: {
+    displayName: 'Comparison Data';
+  };
+  attributes: {
+    category: Schema.Attribute.Enumeration<
+      [
+        'Core HR',
+        'Leave & Documents',
+        'Performance & Payroll',
+        'Administration',
+        'Support',
+      ]
+    >;
+    features: Schema.Attribute.Component<'pricing.features', true>;
+  };
+}
+
+export interface PricingFeatures extends Struct.ComponentSchema {
+  collectionName: 'components_pricing_features';
+  info: {
+    displayName: 'Features';
+  };
+  attributes: {
+    enterprise: Schema.Attribute.Boolean;
+    name: Schema.Attribute.Text;
+    pro: Schema.Attribute.Boolean;
+    starter: Schema.Attribute.Boolean;
+  };
+}
+
 export interface SharedCard extends Struct.ComponentSchema {
   collectionName: 'components_shared_cards';
   info: {
@@ -413,6 +461,9 @@ declare module '@strapi/strapi' {
       'home.testimonial-card': HomeTestimonialCard;
       'modules.all-modules': ModulesAllModules;
       'modules.faq': ModulesFaq;
+      'pricing.compare-plans': PricingComparePlans;
+      'pricing.comparison-data': PricingComparisonData;
+      'pricing.features': PricingFeatures;
       'shared.card': SharedCard;
       'shared.common-cta': SharedCommonCta;
       'shared.hero-section': SharedHeroSection;
